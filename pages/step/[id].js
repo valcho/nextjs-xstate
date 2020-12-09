@@ -1,6 +1,7 @@
+import React from "react"
 import Link from "next/link";
-import Flow from "state/flowContext";
-import SomeComp from 'components/SomeComp'
+import Flow from "../../state/flowContext";
+import SomeComp from "../../components/SomeComp"
 
 export default function Step1() {
   const [flowState] = Flow.use()
